@@ -1,1 +1,12 @@
 
+.hi-icon-effect-6 .hi-icon{
+  box-shadow: 0 0 0 4px rgba(255,255,255,1);
+  transition: background 0.2s, color 0.2s;
+}
+
+.no-touch .hi-icon-effect-6 .hi-icon:hover {
+  background: rgba(255,255,255,1);
+  color: #64bb5d;
+}
+
+.no-touch .hi-icon
