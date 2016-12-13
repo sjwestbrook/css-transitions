@@ -9,4 +9,15 @@
   color: #64bb5d;
 }
 
-.no-touch .hi-icon
+.no-touch .hi-icon-effect-6 .hi-icon:hover:before{
+  animation: spinAround 2s linear infinite; 
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);  
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
