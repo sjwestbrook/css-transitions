@@ -1,7 +1,25 @@
+.hi-icon-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em 0 3em;
+}
 
-.hi-icon-effect-6 .hi-icon{
+.hi-icon-effect-6 .hi-icon {
   box-shadow: 0 0 0 4px rgba(255,255,255,1);
   transition: background 0.2s, color 0.2s;
+}
+
+.hi-icon {
+  display: inline-block;
+  font-size: 0px;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #000;
 }
 
 .no-touch .hi-icon-effect-6 .hi-icon:hover {
